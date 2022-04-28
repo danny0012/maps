@@ -2,7 +2,7 @@
 
 import (
 	"fmt"
-	"github.com/danny0012/datafile"
+	"maps/datafile"
 	"log"
 )
 
