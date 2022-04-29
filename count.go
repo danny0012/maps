@@ -14,8 +14,9 @@ func main() {
 	counts := make(map[string]int)
 	for _, line := range lines {
 		counts[line]++
-		
 	}
 	
-	fmt.Println(counts)
+	for name, count := range counts {
+		fmt.Printf("Votes for %s: %d\n", name, count)
+	}
 }
